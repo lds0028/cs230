@@ -51,3 +51,15 @@ img {
     color: red;
     text-align: center;
 }
+
+.mainbutton {
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+}
+
+.button2 {
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}

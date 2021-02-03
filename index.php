@@ -6,7 +6,7 @@
     <div class="about">
         <h1>About Us</h1>
         <p>Description: Only the best critics here... Straight from Q*Bert, we review our competitors newly released arcade machines. Enjoy the content!</p>
-        <button class="button">Go back to home</button>
+        <button class="mainbutton">Go back to home</button>
     </div>
     <div class="row">
         <div class="column">
@@ -27,6 +27,7 @@
                     <h2>2</h2>
                     <p class="c1">Slick</p>
                     <p class="email">Email: slick@gottlieb.com</p>
+                    <button class="button2">Test button 2</button>
                 </div>
             </div>
         </div>
