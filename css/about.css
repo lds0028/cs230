@@ -4,16 +4,25 @@ body {
 }
 
 p {
-    color: green;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .about {
-    background: rgb(198, 65, 225);
+    background: rgb(214, 85, 9);
     padding: 8px;
 }
 
 .c1 {
     color: indianred;
+}
+
+.c2 {
+    color: blue;
+}
+
+.c3 {
+    color: green;
 }
 
 img {
@@ -31,4 +40,14 @@ img {
 .card {
     box-shadow: 0px 4px 8px 0 #b3b3b3f5;
     padding: 0 16px 0 16px;
+}
+
+.email {
+    color: grey;
+}
+
+.button {
+    font-size: 16px;
+    color: red;
+    text-align: center;
 }
