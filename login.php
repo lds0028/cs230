@@ -44,9 +44,9 @@ require 'includes/header.php';
                     <input type="text" class="form-control" name="uname-email" placeholder="Username/ Email" required
                         autofocus>
 
-                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <!-- <label for="inputEmail" class="sr-only">Email address</label>
                     <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address"
-                        required autofocus>
+                        required autofocus> -->
 
                     <label for="inputPassword" class="sr-only">Password</label>
                     <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password"
