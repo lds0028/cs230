@@ -24,7 +24,7 @@ require 'includes/dbhandler.php';
     <?php
 if(isset($_SESSION['uid'])){
     // username after login
-    $prof_USER = $_SESSION['uname'];
+    $prof_user = $_SESSION['uname'];
     $sqlpro = "SELECT * FROM profiles WHERE uname='$prof_user';";
     $res = mysqli_query($conn, $sqlpro);
     $row = mysqli_fetch_array($res);
@@ -37,7 +37,7 @@ if(isset($_SESSION['uid'])){
             <form action="includes/upload-helper.php" method="POST" enctype="multipart/form-data">
 
                 <div class="form-group">
-                    <img src="<? echo $photo;?>" alt="profile pic" onclick="triggered();" id="prof-display">
+                    <img src="<?php echo $photo;?>" alt="profile pic" onclick="triggered();" id="prof-display">
                     <label for="prof-image" id="uname-style"><?php echo $prof_user?></label>
                     <input type="file" name="prof-image" id="prof-image" onchange="preview(this)" class="form-control" style="display: none;">
                 </div>
